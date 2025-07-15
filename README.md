@@ -67,7 +67,7 @@ This project demonstrates full-stack user authentication using React, Vite, Type
 
 ## Default User
 
-- Email: test@example.com
+- Email: test@gmail.com
 - Password: 123456somepassword
 
 ## Notes
