@@ -1,0 +1,40 @@
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 2rem;
+}
+
+h1 {
+    color: #007acc;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid currentColor;
+    border-radius: 0.5rem;
+}

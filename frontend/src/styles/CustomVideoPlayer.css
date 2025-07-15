@@ -1,0 +1,135 @@
+.video-container {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.video-element {
+    display: block;
+    width: 100%;
+}
+
+.controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(90, 90, 90, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls button {
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.controls button:hover {
+    transform: scale(1.2);
+    color: #777777;
+}
+
+
+.progress-bar{
+    appearance: none;
+    height: 1.5vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.progress-bar {
+    width: 40vh;
+}
+
+
+.progress-bar::-webkit-slider-thumb,
+::-webkit-slider-thumb {
+    appearance: none;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: none;
+}
+
+.volume-bar {
+    appearance: none;
+    width: 15vh;
+    height: 1.5vh;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+
+.volume-bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: #cdcdcd;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.controls svg {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+
+
+
+.progress-bar::-moz-range-thumb,
+.volume-bar::-moz-range-thumb {
+    width: 5px;
+    height: 0;
+    background: transparent;
+    border: none;
+}
+
+@media (max-width: 700px) {
+.controls{
+    width: 93vw;
+    }
+
+
+.video-element{
+    width: 100vw;
+    }
+
+
+    .controls {
+        bottom: 0;
+        padding: 0;
+        gap: 0;
+    }
+
+.progress-bar{
+    width: 40vw;
+}
+
+.volume-bar{
+    width: 15vw;
+}
+
+}
+
+
+

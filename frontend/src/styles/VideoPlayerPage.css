@@ -1,0 +1,47 @@
+.video-player-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-meta {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5vh;
+    margin-right: 5vh;
+}
+
+.video-author {
+    padding-right: 75vw;
+}
+
+.video-space {
+    padding: 3vh;
+}
+
+.video-description {
+    text-align: center;
+    max-width: 90vw;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    white-space: pre-wrap;
+    background-color: #efefef;
+    border-radius: 15px;
+}
+
+@media (max-width: 700px) {
+
+    .video-author {
+        padding-right: 40vw;
+    }
+
+    h1{
+        padding-top: 5vh;
+        font-size: 2rem;
+    }
+
+    .video-description {
+        font-size: 0.9rem;
+    }
+
+}
